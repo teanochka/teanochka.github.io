@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>МКУ "ЦБ МО Кимовский район"</title>
+  <style>
+    body {
+    background-image: url('https://img.freepik.com/premium-vector/business-hand-drawn-doodles-seamless-pattern-background_39663-248.jpg');
+    background-size: auto; 
+    background-repeat: repeat; 
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .header {
+      background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1));
+      background-color: rgb(6,69,128);
+      border-bottom: 1px solid white;
+      padding-top: 20px;
+      color: white;
+      text-align: center;
+    }
+    
+        .header h1 {
+      margin: 10px; 
+    }
+    
+    .header img {
+      height: 150px;
+      width: auto;
+      margin: 10px; 
+    }
+
+    .content {
+      padding: 20px;
+      
+    }
+    
+    .tab {
+      overflow: hidden;
+      display: flex; 
+      border-top: 1px solid;
+      border-image: linear-gradient(to right, transparent,rgba(255, 255, 255, 0.6), transparent) 1;
+    }
+
+    .tab button {
+      background-color: inherit;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+      flex-grow: 1; 
+      color: white;
+      position: relative;
+    }
+
+    .tab button:hover {
+      background: radial-gradient(ellipse at center, rgba(0, 255, 255, 0.4), transparent);
+    }
+    
+    .tab button.active {
+      background-color:rgba(0, 255, 255, 0.25);
+    }
+    
+    .tabcontent {
+      background-color: white;
+      line-height: 1.5;
+      display: none;
+      padding: 20px;
+      padding-left: 30px;
+      border: 1px solid rgb(4, 110, 150);
+    }
+
+    .contact-info {
+      background-color: white;
+      border-top: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    .employee {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .employee img {
+      width: 100px; 
+      height: 100px; 
+      margin-right: 20px; 
+      border: 1px solid #ccc; 
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+          <img src="https://images.vector-images.com/71/kimovsky_rayon_coa_n6582.gif" alt="">
+    <h1 style="padding-bottom: 20px;">МКУ "ЦБ МО КИМОВСКИЙ РАЙОН"
+    </h1>
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'home-content')">Главная</button>
+      <button class="tablinks" onclick="openCity(event, 'history-content')">История</button>
+      <button class="tablinks" onclick="openCity(event, 'employees-content')">Сотрудники</button>
+    </div>
+  </div>
+  <div class="content">
+    <div id="home-content" class="tabcontent">
+      <h1 style="font-weight: bold;">ДЕЯТЕЛЬНОСТЬ ОРГАНИЗАЦИИ</h1>
+      <hr>
+      <h2 style="color: rgb(4, 110, 150);"
+>Функции МКУ "ЦБ МО Кимовский район"</h2>
+      <p> МКУ "ЦБ МО Кимовский район" выполняет следующие функции:</p>
+      <ul>
+        <li>Формирует полную и достоверную информацию о хозяйственных процессах и результатах деятельности администрации муниципального образования Кимовский район, необходимой для оперативного руководства и управления, а также для ее использования налоговыми, финансовыми, банковскими и казначейскими органами.</li>
+        <li>Осуществляет упорядоченную систему сбора, регистрации и обобщения информации в денежном выражении о состоянии финансовых и нефинансовых активов, обязательств администрации муниципального образования Кимовский район и операциях, приводящих к изменению вышеуказанных активов и обязательств.</li>
+        <li>Своевременно начисляет и выдает заработную плату и пособия.</li>
+        <li>Осуществляет ведение учета расчетов с контрагентами.</li>
+        <li>Участвует в проведении инвентаризации денежных средств, активов и обязательств, своевременно и правильно отражает в учете результаты инвентаризации.</li>
+        <li>Составляет отчетность об использовании средств местного бюджета администрации муниципального образования Кимовский район и предоставляет ее соответствующим органам в установленные сроки, обеспечивает достоверность вышеуказанных отчетов.</li>
+        <li>Соблюдает установленный порядок хранения бухгалтерских документов, смет расходов и расчетов к ним, а также других служебных документов, своевременно и в установленном порядке сдает их в архив.</li>
+      </ul>
+    </div>
+    <div id="history-content" class="tabcontent" style="display: none;">
+      <h1 style="font-weight: bold;">ИСТОРИЯ ОРГАНИЗАЦИИ</h1>
+      <hr>
+      <h2 style="color: rgb(4, 110, 150);">Биографическая справка о начальнике</h2>
+      <p>
+Евтягина О.Ю. родилась в 1976 году в г. Кимовске Тульской области.
+
+Имеет высшее профессиональное образование: в 2004 году окончила ГОУ «Московский государственный университет экономики, статистики и информатики» по специальности бухгалтерский учет, анализ и аудит, имеет квалификацию - экономист.
+
+Евтягина Ольга Юрьевна начала свою трудовую деятельность с 1993 года в должности режиссера агитбригады в районном Доме культуры. В 1993 году была переведена бухгалтером в централизованную бухгалтерию при администрации г.Кимовска. За годы работы прошла путь от рядового бухгалтера до начальника отдела бухгалтерского учета и отчетности.
+
+В 2007 году прошла курсы повышения квалификации по программе «Основы менеджмента в местном самоуправлении» в « Тульском филиале Орловской региональной академии государственной службы» и в 2013 году прошла курсы повышения квалификации по программе «Актуальные вопросы государственного и муниципального управления» в ФГБОУ ВПО «Российской академии народного хозяйства и государственной службы при Президенте Российской Федерации».
+
+Замужем, двое детей.</p>
+    </div>
+    <div id="employees-content" class="tabcontent" style="display: none;">
+      <h1 style="font-weight: bold;">СОТРУДНИКИ</h1>
+      <hr>
+      <div class="employee">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/003/337/584/small/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="Фото Атамановой">
+    <div class="employee-info">
+      <div><strong>Должность:</strong> Консультант</div>
+      <div><strong>ФИО:</strong> Атаманова Елена Николаевна</div>
+      <div><strong>Телефон:</strong> 8 (48735) 5-82-17</div>
+      <div><strong>E-mail:</strong> buch@admkimovsk.ru</div>
+    </div>
+  </div>
+
+  <div class="employee">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/003/337/584/small/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="Фото Полесчиковой">
+    <div class="employee-info">
+      <div><strong>Должность:</strong> Ведущий бухгалтер</div>
+      <div><strong>ФИО:</strong> Полесчикова Ирина Борисовна</div>
+      <div><strong>Телефон:</strong> 8 (48735) 5-82-17</div>
+      <div><strong>E-mail:</strong> buch@admkimovsk.ru</div>
+    </div>
+  </div>
+    </div>
+    </div>
+  <div class="contact-info">
+    <p>Телефон: +7-XXX-XXX-XX-XX</p>
+    <p>Почта: info@example.com</p>
+  </div>
+  <script>
+    // Сделать первую кнопку активной по умолчанию
+    document.querySelector('.tab button').classList.add('active');
+    document.getElementById('home-content').style.display = 'block'; 
+    
+    function openCity(evt, tabName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.classList.add("active");
+    }
+  </script>
+</body>
+</html>
